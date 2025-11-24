@@ -158,8 +158,11 @@ label {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, rgba(255, 145, 251, 0.85), rgba(33, 38, 100, 0.8));
+  background: var(--color-secondary);
+  pointer-events: none;
 }
+
+
 
 .course-card__meta {
   font-size: 0.9rem;
